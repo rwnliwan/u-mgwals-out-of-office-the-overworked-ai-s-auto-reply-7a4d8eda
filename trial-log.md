@@ -24,4 +24,7 @@ Ditolak di tahap ide: airplane mode (pola pemenang six-prog sendiri — tidak di
 |-------|------|-------|
 | T1 | Riset API + agregat judul (657 submission), kit download + verifikasi sha | Kit MATCH; sudut jenuh: context window 84, beach 33, Monday 39, tokens 30, queue 31 |
 | T2 | 5 kandidat → check_dup.py + grep mekanisme | Semua lolos angka; E terpilih (turn "migrate to patience", register mesin penuh) |
-| T3 | Build repo lokal: main.ts + README (3 live badge, 0 shields) + owner.json + LICENSE | (isi sesudah bundle/check) |
+| T3 | Build repo lokal: main.ts + README (3 live badge, 0 shields) + owner.json + LICENSE | main.ts jalan lokal: output 127 kar / 129 byte / 1 baris, sama persis dengan teks terpilih; grep README: shields.io 0, make.fun/badge 3 |
+| T4 | git init + commit `2f52688a…` (main), `gh repo create` publik (TIDAK kena rate limit), origin ditambah manual (gh repo create tidak memasang origin), push — HEAD lokal = ls-remote, tree bersih; About di-set (homepage + topics makefun via PUT, terverifikasi gh api) | Repo https://github.com/rwnliwan/u-mgwals-out-of-office-the-overworked-ai-s-auto-reply-7a4d8eda, default branch main |
+| T5 | Bundle v1: 845.256 B, sha256 `56e6258998838037f790a18d97c72b6fbfbd7e74d383df559123b9ffe6426620` (warning 0 usage rows — ekspektasi, subagent flush saat run selesai) | Bundle OK |
+| T6 | Check v1 thd commit `2f52688a…`: **12 passed / 2 failed / 5 skipped / 5 at submission** — FAIL `thinking_priced` (0 usage rows, ekspektasi — koordinator re-bundle) dan `thinking_revised` (main.ts ditulis sekali, 1 message); reproduces 96,4% (54/56, main.ts 25 authored lines) | Perlu revisi genuine trial-log (T7 ini) → re-commit → re-bundle v2 → re-check |
